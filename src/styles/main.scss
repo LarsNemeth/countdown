@@ -1,0 +1,53 @@
+// scss:
+// This is where your styles can go, import any other scss or css files here or write your own style directly below
+
+body,
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', Courier, monospace;
+  // border: 3px solid red;
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .countdownBox {
+      margin-left: 80px;
+      align-self: start;
+      width: 33.3vw;
+      height: 100vh;
+      background-color: black;
+      background-image: url('https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNreXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 6;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .infoBox {
+      align-self: center;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 80px;
+
+      button {
+        background-color: lightgrey;
+        border-style: none;
+        color: white;
+        border-radius: 25px;
+        padding: 7px;
+      }
+
+      .socialMediaLinks {
+        position: fixed;
+        bottom: 20px;
+        text-align: start;
+      }
+    }
+  }
+}

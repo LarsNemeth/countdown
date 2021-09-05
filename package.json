@@ -1,0 +1,29 @@
+{
+  "name": "Lars-Webiste-Commin-Soon",
+  "version": "1.0.0",
+  "description": "### Coming Soon Page",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel src/index.html",
+    "live": "live-server src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E03/browser-comingsoon-LarsNemeth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E03/browser-comingsoon-LarsNemeth/issues"
+  },
+  "homepage": "https://github.com/FbW-E03/browser-comingsoon-LarsNemeth#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "moment": "^2.29.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.38.2"
+  }
+}
